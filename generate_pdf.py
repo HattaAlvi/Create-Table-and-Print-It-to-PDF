@@ -22,7 +22,7 @@ enrollments_data = c.fetchall()
 conn.close()
 
 # Prepare PDF
-pdf_path = "database_example(3).pdf"
+pdf_path = "database_example.pdf"
 doc = SimpleDocTemplate(pdf_path, pagesize=letter)
 elements = []
 
